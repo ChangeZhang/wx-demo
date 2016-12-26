@@ -1,0 +1,27 @@
+<template name='indexNewsItem'>
+    <view class='news-item'>
+        <view class='news-time'>
+            <image src="{{avatar}}"></image>
+            <text>{{date}}</text>
+        </view>
+        <view class='news-title'>
+            <text>{{title}}</text>
+        </view>
+        <view class='news-pic'>
+            <image src="{{imgSrc}}"></image>
+        </view>
+        <view class='news-des'>
+            <text>{{content}}</text>
+        </view>
+        <view class='news-vot'>
+            <view>
+                <image src="/images/icon/chat.png"></image>
+                <text>82</text>
+            </view>
+            <view>
+                <image src="/images/icon/chat1.png"></image>
+                <text>82</text>
+            </view>
+        </view>
+    </view>
+</template>

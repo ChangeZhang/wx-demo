@@ -1,1 +1,14 @@
 /**app.wxss**/
+image,text,view {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    vertical-align: top;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+text,view {
+    font-size: 100%;
+    font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', Helvetica, Arial, sans-serif;
+}

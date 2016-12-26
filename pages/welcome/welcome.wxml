@@ -1,4 +1,9 @@
 <view class="container">
-    <image class='user-avatar' src="/images/avatar/1.png"></image>
-    <view></view>
+    <image class='user-avatar' src="http://c2-q.mafengwo.net/s9/M00/83/CD/wKgBs1fWPG6ABX5KAAO7vq1VxYE28.jpeg?imageMogr2%2Fthumbnail%2F%21120x120r%2Fgravity%2FCenter%2Fcrop%2F%21120x120%2Fquality%2F90"></image>
+    <view class='wel-text-con'>
+        <text class='wel-text'>hello,小玉</text>
+    </view>
+    <view class='wel-btn' bindtap='gotoIndex'>
+        <text class='wel-btn-text'>开始小程序体验</text>
+    </view>
 </view>

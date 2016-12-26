@@ -1,0 +1,82 @@
+.news-item {
+    margin: 20rpx 0;
+    background: #fff;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+}
+
+.news-time {
+    height: 56rpx;
+    line-height: 56rpx;
+    padding:0 20rpx;
+    margin:12rpx 0 24rpx 0;
+}
+.news-time image {
+    width: 56rpx;
+    height: 56rpx;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: 24rpx;
+}
+.news-time text {
+    color: #767676;
+    font-size: 24rpx;
+    vertical-align: middle;
+}
+
+.news-title {
+    margin:20rpx 0;
+    padding:0 20rpx;
+    color: #000;
+    font-size: 32rpx;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.news-pic {
+    margin:20rpx 0;
+    width: 100%;
+    height: 410rpx;
+}
+.news-pic image {
+    width: 100%;
+    height: 100%;
+    background: #e0e0e0;
+}
+
+.news-des {
+    margin:20rpx 0;
+    padding:0 15rpx;
+    font-size: 24rpx;
+}
+.news-des text {
+    line-height: 1.5;
+    text-indent: 24rpx;
+}
+.news-vot {
+    width: 100%;
+    margin:20rpx 0;
+    padding:0 15rpx;
+}
+.news-vot view {
+    display: inline-block;
+    margin-right: 35rpx;
+    height: 34rpx;
+    line-height: 34rpx;
+}
+.news-vot view image {
+    width: 28rpx;
+    height: 28rpx;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10rpx;
+    margin-top: 5rpx;
+}
+.news-vot view text {
+    display: inline-block;
+    height: 34rpx;
+    line-height: 34rpx;
+    font-size: 24rpx;
+    color: #666;
+    vertical-align: top;
+}
